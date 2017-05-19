@@ -28,3 +28,7 @@
         i++;
     }, 5000);
 })();
+
+$('document').ready(function(){
+    $('#modal').modal();
+});

@@ -139,3 +139,15 @@ html { overflow-x: hidden; }
 	font-size:23.4px;
 	padding: 10px 45px;
 }
+
+#superModal {
+	position: fixed;
+	top: 635px;
+	left: 408px;
+	border-radius: 30px;
+	border: 1px solid red;
+	background-color: #DD0029;
+	font-size: 23px;
+	padding: 10px 44px;
+	font-family: Proxima-semibold;
+}
