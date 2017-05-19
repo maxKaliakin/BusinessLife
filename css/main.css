@@ -1,0 +1,141 @@
+  @font-face {
+  	font-family: Proxima-regular; 
+  	src: url(../fonts/proxima-regular/proxima-regular.woff);
+  }
+  @font-face {
+  	font-family: Proxima-semibold; 
+  	src: url(../fonts/proxima-semibold/proxima-semibold.woff);
+  }
+  @font-face {
+  	font-family: Proxima-light; 
+  	src: url(../fonts/proxima-light/proxima-light.woff);
+  }
+  @font-face {
+  	font-family: ProximaBlack; 
+  	src: url(../fonts/proxima-black/proxima-black.woff);
+  }
+  @font-face {
+  	font-family: ProximaBold; 
+  	src: url(../fonts/proxima-bold/proxima-bold.woff);
+  }
+    @font-face {
+  	font-family: goodVibes; 
+  	src: url(../fonts/goodVibes/goodVibes.woff);
+  }
+
+html { overflow-x: hidden; }
+.container-fluid{
+	background-image: url(../img/sqrd.jpg);
+	width: 170%;
+	height: 170%;
+	position: fixed;
+	top: -100px;
+	left: -1700px;
+	overflow: hidden;
+	-webkit-transform: rotate(108deg);
+	-moz-transform: rotate(108deg);
+	-ms-transform: rotate(108deg);
+	-o-transform: rotate(108deg);
+	transform: rotate(108deg);
+	z-index:0;
+}
+#left_side_background {
+	background-image: url(../img/left_part_of_background.png);
+	top: 0;
+	left: 0;
+	z-index: 2;
+}
+#logo{
+	position: relative;
+	top: 11px;
+	left: 23px;
+}
+.phone_number:before{
+	content: url(../img/call.png);
+	position: relative;
+	top: 10px;
+	padding-right: 13px;
+}
+
+.phone_number {
+	font-family: Proxima-regular;
+	letter-spacing: -0.5px;
+	font-size: 25px;
+	position: relative;
+	left: 77px;
+	top: 35px;
+}
+
+/*Header Button - Make a Call*/
+.btn-default {
+	border-radius: 30px;
+	border: 1px solid red;
+	position: relative;
+	top: -15px;
+	left: 340px;
+	font-size: 18px;
+	padding: 9px 34px;
+	font-family: Proxima-semibold;
+}
+
+#header_menu{display: inline-block; padding: 7px 0 0 37px;}
+#header_menu a{
+	font-family: Proxima-regular;
+	font-size: 18px;
+	color: #000;
+	padding: 5px 0;
+	margin-right: 52px; 
+	text-decoration: none;
+}
+
+#header_menu a:hover {
+	color:#DE002B;
+	border-bottom: 0;
+	border-top: 1px solid #DE002B;
+}
+
+#main_text{
+	position: relative;
+	top: 76px;
+	left: 23px;
+	font-family: ProximaBold;
+	line-height: 55px;
+	font-size: 37px;
+	text-transform: uppercase;
+	color: #212759;
+}
+#main_text span {
+	color: #DE0B34;
+	font-family: Proxima-semibold;
+}
+.lowerCaseLetters{
+	text-transform: lowercase;
+}
+#after_main_text{
+	font-family: Proxima-light;
+	font-size: 30px;
+	color: #212759;
+	position: relative;
+	top: 234px;
+	left: -464px;
+	line-height: 37px;
+}
+#upper_button_text {
+	font-family: Proxima-regular;
+	font-size: 24px;
+	color: #212759;
+	position: relative;
+	top: 241px;
+	left: 24px;
+	line-height: 30px;
+}
+.btn-danger {
+	border-radius: 30px;
+	background-color: #E33353;
+	border: 1px solid #E33353;
+	position: relative;
+	top: 304px;
+	left: -348px;
+	font-size:23.4px;
+	padding: 10px 45px;
+}
